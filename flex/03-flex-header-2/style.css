@@ -31,6 +31,7 @@ body {
   font-weight: 900;
   font-style: italic;
   margin-left: 10px;
+  margin-right: -20px;
 }
 
 button {
@@ -67,4 +68,8 @@ ul {
   align-items: center;
   gap: 8px;
   margin-right: 5px;
+}
+
+.right-flex-item {
+  margin-right: 16px;
 }
