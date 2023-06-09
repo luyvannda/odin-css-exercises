@@ -24,6 +24,52 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+
+/* solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  height: 56px;
+  padding: 16px 16px 0 16px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: -2rem;
+}
+
+.sidebar {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 10px;
+}
+
+
+.footer {
+  display: flex;
 }
